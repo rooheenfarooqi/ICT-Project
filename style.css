@@ -1,0 +1,198 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  
+  background-color: lightgray;
+  
+  
+}
+nav {
+  width:100%;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+ul li {
+  /* list-style removes the * from next to the link */
+  list-style:none;
+  /* inline-block puts the words next to one another */
+  display: inline-block;
+  /* line-height:100px centers it in the midle of the nav bar */
+  line-height: 50px;
+ margin-left: 130px;
+ }
+ul li a {
+ 
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: lightgray;
+  cursor: pointer;
+  }
+.home{
+    position: relative;
+}
+.home-sec-heading{
+    
+   position: absolute;
+   top: 15%;
+   left: 35%;
+   color: lightgray ;
+   width: 40%;
+   font-size: 70px;
+   
+}
+.heading-2{
+  position: absolute;
+  top: 27%;
+  left: 41%;
+  font-size: 20px ;
+  font-weight:bold;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+
+
+
+.heading-3{
+  position: absolute;
+  top: 63%;
+  left: 2%;
+  right:2%;
+  font-size: 20px ;
+  font-weight:bold;
+  color: black ;
+  background-color: rgba(255, 255, 255, 0.5) ;
+  
+}
+.heading-4{
+  position: absolute;
+  top: 73%;
+  left: 2%;
+  right:2%;
+  font-size: 20px ;
+  font-weight:bold;
+  color: black ;
+  background-color: rgba(255, 255, 255, 0.5) ;
+
+}
+.heading-5{
+  position: absolute;
+  top: 83%;
+  left: 2%;
+  right:2%;
+  font-size: 20px ;
+  font-weight:bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black ;
+ 
+
+
+}
+.grid-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  grid-gap: 10px;
+  margin-left: 20px;
+  
+  
+}
+.box{
+  border: 2px solid darkgray;
+  margin : auto;
+  color: black;
+  text-align: center;
+  
+}
+.box:hover{
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+.watch-text{
+  text-align: center;
+  margin-right: 50px;
+}
+.contactus{
+  max-width: 800px;
+  height: 700px;
+  background: lightgray;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  box-sizing: border-box;
+  padding: 40px;
+  
+}
+
+.Cont{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+  background-color: lightgrey;
+}
+
+.login .input{
+  width: 100%;
+  float: left;
+  margin-right: 4%;
+  background-color: lightgrey;
+}
+
+
+
+.msg .area{
+  height: 200px;
+  background-color: lightgrey;
+}
+
+.btn{
+  width: 250px;
+  background: black;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid black;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 100;
+  left: 0;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  color: lightgray;
+}
+
+
+
+
+
